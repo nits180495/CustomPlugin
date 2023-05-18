@@ -1,0 +1,22 @@
+{
+  "name": "com.juego.googleads",
+  "version": "0.0.1",
+  "unity": "2021.1",
+  "unityRelease": "28f1",
+  "displayName": "AdsFramework",
+  "description": "AdsFramework can be used for implementing Reward Ads, Interstitial ads and Banner Ads. This framework also support to add test devices.",
+  "keywords": [
+    "Reward",
+    "Interstitial",
+    "Banner"
+  ],
+  "category": "UtilityFrameWorks",
+  "relatedPackages": {},
+  "samples": [
+    {
+        "displayName": "Samples",
+        "description": "Sample demo of showing Reward Ads, Interstitial ads and Banner Ads.",
+        "path": "Samples~/SampleAds"
+    }
+  ]
+}
