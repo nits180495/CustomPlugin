@@ -15,6 +15,7 @@ You can config App ID's, adsUnit ID's and Test Device ID's.
 ### Requirements
 Install Google Mobile Ads Unity plugin from site or github.
 Resovle all dependency and import this framework.
+Make sure you set Ads App Id's in Google Mobile Ads Settings.
 
 #### Setup
 Create a "Resources" folder in Assets.
@@ -29,9 +30,13 @@ By default it will be Test Ads.
 
 ##### Notice
 Please properly install Google AsdMob sdk and resovle all dependency. 
-If you face any issue regarding jdk or gradle, then try to open prefrences and copy the path for jdk. 
-Then uncheck jdk option and past url in jdk path feild. 
-Then try to force resolve dependency.
-Also make sure you have added the Ads App ID in googl ads settings. 
+For Android 
+    If you face any issue regarding jdk or gradle, then try to open prefrences and copy the path for jdk. 
+    Then uncheck jdk option and paste url in jdk path feild. 
+    Then try to force resolve dependency.
+For iOS
+    Make sure you have xcode and all required tool for iOS build.
+Also make sure you have added the Ads App ID in google ads settings. 
+For banner Set "adKeyword" which is static variable of "BannerAdsManager.cs".
 For this go Assets > Google Mobile Ads > Settings.
 
